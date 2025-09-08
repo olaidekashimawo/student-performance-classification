@@ -6,8 +6,8 @@
 - Portuguese (`student-por.csv`).  
 Data were collected from school reports and questionnaires. See: Cortez & Silva (2008).
 
-> Important: `G3` is strongly correlated with `G1` and `G2` because they are 1st, 2nd, and final period grades.  
-> For a realistic task, we **do not use G1 or G2** as inputs when predicting G3.
+- Important: `G3` is strongly correlated with `G1` and `G2` because they are 1st, 2nd, and final period grades.  
+- For a realistic task, we **do not use G1 or G2** as inputs when predicting G3.
 
 ---
 ## Data
