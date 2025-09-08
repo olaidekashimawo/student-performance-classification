@@ -7,9 +7,15 @@ Data were collected from school reports and questionnaires. See: Cortez & Silva 
 > For a realistic task, we **do not use G1 or G2** as inputs when predicting G3.
 
 ---
+## Data
 
-## Project Structure
----
+- `data/student-mat.csv` — Mathematics subject  
+- `data/student-por.csv` — Portuguese subject  
+- Delimiter: **semicolon** `;`
+
+Each file contains demographics, social context, study habits, support programs, and final grades.## Project Structure
+
+```plaintext
 student-performance-classification/
 ├── data/
 │   ├── student-mat.csv
@@ -26,6 +32,7 @@ student-performance-classification/
 │   └── shap_summary.png
 ├── README.md
 └── requirements.txt
+
 ## Goal
 
 Binary classification: **Pass vs Fail** based on final grade `G3`.  
@@ -36,15 +43,6 @@ We also report feature importance with **SHAP** for transparency.
 
 ---
 
-## Data
-
-- `data/student-mat.csv` — Mathematics subject  
-- `data/student-por.csv` — Portuguese subject  
-- Delimiter: **semicolon** `;`
-
-Each file contains demographics, social context, study habits, support programs, and final grades.
-
----
 
 ## Quickstart
 
