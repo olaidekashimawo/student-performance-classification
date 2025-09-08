@@ -1,6 +1,9 @@
 # Student Performance Classification (with Explainability)
 
-Predict final student performance (**G3**) in Portuguese secondary education using demographics, social factors, and school-related features. Two datasets are provided for distinct subjects: **Mathematics** (`student-mat.csv`) and **Portuguese** (`student-por.csv`).  
+- Predict final student performance (**G3**) in Portuguese secondary education using demographics, social factors, and school-related features. 
+- Two datasets are provided for distinct subjects:
+- Mathematics (`student-mat.csv`) and 
+- Portuguese (`student-por.csv`).  
 Data were collected from school reports and questionnaires. See: Cortez & Silva (2008).
 
 > Important: `G3` is strongly correlated with `G1` and `G2` because they are 1st, 2nd, and final period grades.  
