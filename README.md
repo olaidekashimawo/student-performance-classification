@@ -6,9 +6,9 @@ In [Cortez and Silva, 2008], the two datasets were modeled under binary/five-lev
 
 student-performance-classification/
 │── data/
-│   ├── student-mat.csv
-│   ├── student-por.csv
-│   ├── merge dataset
+  -student-mat.csv
+  -student-por.csv
+  - merge dataset
 │── notebooks/
 │   ├── student_performance_classification.ipynb
 │── models/
