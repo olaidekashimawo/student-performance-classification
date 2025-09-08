@@ -42,13 +42,17 @@ Binary classification: **Pass vs Fail** based on final grade `G3`.
 We also report feature importance with **SHAP** for transparency.
 ## Result
 ---
-<img width="790" height="940" alt="image" src="https://github.com/user-attachments/assets/7a8e98f3-4077-49a3-a96a-0d86a253aded" />
-## Explainability
+## Explainability with SHAP
 
-We used **SHAP (SHapley Additive exPlanations)** to interpret model predictions.  
+We applied **SHAP (SHapley Additive exPlanations)** to interpret the Random Forest model’s predictions.  
 
-Key features influencing student success include prior failures, absences, extracurricular activities, and parental education levels.
+The plot below shows the average impact of each feature on predicting whether a student passes or fails.  
 
+- **Failures** (previous course failures) had the strongest negative effect on performance.  
+- **Going out** (social activity), **absences**, and **extra paid classes** also significantly influenced predictions.  
+- Parental education and school-related factors had smaller but still notable contributions.  
+
+![SHAP Summary](https://github.com/user-attachments/assets/7a8e98f3-4077-49a3-a96a-0d86a253aded)
 )
 
 
