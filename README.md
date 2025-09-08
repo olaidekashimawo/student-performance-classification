@@ -40,14 +40,15 @@ Binary classification: **Pass vs Fail** based on final grade `G3`.
 - Inputs: all features **except** `G1`, `G2`, `G3`.
 
 We also report feature importance with **SHAP** for transparency.
-
+## Result
 ---
+<img width="790" height="940" alt="image" src="https://github.com/user-attachments/assets/7a8e98f3-4077-49a3-a96a-0d86a253aded" />
+## Explainability
+
+We used **SHAP (SHapley Additive exPlanations)** to interpret model predictions.  
+
+Key features influencing student success include prior failures, absences, extracurricular activities, and parental education levels.
+
+)
 
 
-## Quickstart
-
-### 1) Install
-
-```bash
-python -m venv .venv && source .venv/bin/activate   # on Windows: .venv\Scripts\activate
-pip install -r requirements.txt
