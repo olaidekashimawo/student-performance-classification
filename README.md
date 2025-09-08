@@ -52,5 +52,7 @@ The plot below shows the average impact of each feature on predicting whether a 
 - Going out: (social activity), **absences**, and **extra paid classes** also significantly influenced predictions.  
 - Parental education and school-related factors had smaller but still notable contributions.  
 
-![SHAP Summary]<img width="790" height="940" alt="download" src="https://github.com/user-attachments/assets/a8a011a0-3460-48cb-85de-b9ded3fe8dd9" />
+![SHAP Summary]
+<img src="https://github.com/user-attachments/assets/a8a011a0-3460-48cb-85de-b9ded3fe8dd9" alt="SHAP Summary" width="790" height="940">
+
 
